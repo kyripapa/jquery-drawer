@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drawer demo</title>
+    <script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="../js/jquery-drawer.js"></script>
+
+    <script>
+        $ (document).ready (function () {
+            var drawer = $ ("#drawer").drawer ();
+
+            $ ("#drawer-open").click (function () {
+                drawer.open ();
+            });
+
+            $ ("#drawer-close").click (function () {
+                drawer.close ();
+            });
+
+        });
+    </script>
+
+</head>
+<body>
+
+<div id="drawer"></div>
+
+<button id="drawer-open">Open</button>
+<button id="drawer-close">Close</button>
+
+</body>
+</html>
