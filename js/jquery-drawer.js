@@ -22,6 +22,8 @@
 
         }
 
+        return this;
+
     };
 
 
